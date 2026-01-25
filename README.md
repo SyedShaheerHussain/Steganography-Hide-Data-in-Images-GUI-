@@ -171,9 +171,9 @@ python mainapp.py
 > [!Important]
 > This project provides a secure and user-friendly tool for hiding secret messages in images. With AES encryption + LSB steganography, it ensures both privacy and data concealment.
 **Perfect for:**
-> Students learning steganography
-> Secure message sharing
-> Fun encryption projects
+> * Students learning steganography
+> * Secure message sharing
+> * Fun encryption projects
 
 
 
