@@ -96,7 +96,7 @@ pip install Pillow cryptography
 
 ```
 
-Step 2: Clone or download this repository
+### Step 2: Clone or download this repository
 
 ```
 git clone https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-.git
