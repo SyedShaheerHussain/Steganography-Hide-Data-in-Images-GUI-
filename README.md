@@ -2,7 +2,7 @@
 
 This project hides secret text messages inside images using Least Significant Bit (LSB) steganography combined with AES-256 password-based encryption.
 
-# Description
+## Description
 
 This project is a Python-based GUI application that enables image steganography, allowing users to hide and extract secret messages inside images.
 
@@ -44,37 +44,38 @@ encrypted data.
 
 ## 🛠 How It Works
 
-Hide Message Tab
+1. Hide Message Tab
 
-Select an image from your device.
+2. Select an image from your device.
 
-Type your secret message in the text box.
+3. Type your secret message in the text box.
 
-Enter a password to encrypt the message.
+4. Enter a password to encrypt the message.
 
-Click "Hide Message".
+5. Click "Hide Message".
 
-Save the encoded image with a new name.
+6. Save the encoded image with a new name.
 
-Extract Message Tab
+7. Extract Message Tab
 
-Select the encoded image you just saved.
+8. Select the encoded image you just saved.
 
-Enter the same password used for hiding.
+9. Enter the same password used for hiding.
 
-Click "Extract Message".
+10. Click "Extract Message".
 
-The hidden message will appear in the text box.
+11. The hidden message will appear in the text box.
 
-Technical Details:
+12. Technical Details:
 
-LSB steganography hides message bits in the least significant bit of each RGB channel.
+13. LSB steganography hides message bits in the least significant bit of each RGB channel.
 
-AES encryption (via Python cryptography library) encrypts the message before hiding it.
+14. AES encryption (via Python cryptography library) encrypts the message before hiding it.
 
-Only correct password can decrypt and reveal the message.
+15. Only correct password can decrypt and reveal the message.
 
 ## 🛠 Technologies Used
+
 - Python
 - Pillow (Image Processing)
 - Cryptography (AES Encryption)
@@ -82,57 +83,66 @@ Only correct password can decrypt and reveal the message.
 
 ## 🖥 Installation
 
-Requirements:
+*Requirements:*
 
 Python 3.10+
 
 Libraries: Pillow, cryptography
 
-Step 1: Install Python packages
+### Step 1: Install Python packages
 
-```pip install Pillow cryptography```
+```
+pip install Pillow cryptography
+
+```
 
 Step 2: Clone or download this repository
 
 ```
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-.git
+
+```
+```
+cd Steganography Hide Data in Images
+
 ```
 
+### Step 3: Run the application
 
-Step 3: Run the application
+```
+python mainapp.py
 
-```python mainapp.py```
+```
 
 ## 📝 Usage Steps
 
-Hide a Message:
+*Hide a Message:*
 
-Open the app.
+1. Open the app.
 
-Go to Hide Message Tab.
+2. Go to Hide Message Tab.
 
-Click Select Image and choose an image.
+3. Click Select Image and choose an image.
 
-Type your secret message in the text box.
+4. Type your secret message in the text box.
 
-Enter a password.
+5. Enter a password.
 
-Click Hide Message.
+6. Click Hide Message.
 
-Save the encoded image anywhere with a custom name.
+7. Save the encoded image anywhere with a custom name.
 
-Extract a Message:
+*Extract a Message:*
 
-Go to Extract Message Tab.
+1. Go to Extract Message Tab.
 
-Upload the encoded image.
+2. Upload the encoded image.
 
-Enter the same password used during hiding.
+3. Enter the same password used during hiding.
 
-Click Extract Message.
+4. Click Extract Message.
 
-The decrypted message will appear in the text box.
+5. The decrypted message will appear in the text box.
 
 ## 🖇 Functions Overview
 
@@ -150,22 +160,21 @@ The decrypted message will appear in the text box.
 
 ## 💡 Notes
 
-Make sure the message size fits the image. Large messages may exceed capacity.
+> [!Note]
+> Make sure the message size fits the image. Large messages may exceed capacity.
+> Use strong passwords for secure encryption.
+> Supports RGB images only.
+> Always save the encoded image with a different filename to avoid overwriting the original.
 
-Use strong passwords for secure encryption.
-
-Supports RGB images only.
-
-Always save the encoded image with a different filename to avoid overwriting the original.
 
 ## 🎯 Conclusion
+> [!Important]
+> This project provides a secure and user-friendly tool for hiding secret messages in images. With AES encryption + LSB steganography, it ensures both privacy and data concealment.
+**Perfect for:**
+> Students learning steganography
+> Secure message sharing
+> Fun encryption projects
 
-This project provides a secure and user-friendly tool for hiding secret messages in images. With AES encryption + LSB steganography, it ensures both privacy and data concealment.
 
-Perfect for:
 
-Students learning steganography
 
-Secure message sharing
-
-Fun encryption projects
