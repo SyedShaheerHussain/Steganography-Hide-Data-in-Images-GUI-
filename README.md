@@ -87,9 +87,12 @@ encrypted data.
 
 *Requirements:*
 
-Python 3.10+
+**Python 3.10+**
 
-**Libraries:** Pillow, cryptography
+**Libraries:** 
+
+* Pillow
+* Cryptography
 
 ### Step 1: Install Python packages
 
