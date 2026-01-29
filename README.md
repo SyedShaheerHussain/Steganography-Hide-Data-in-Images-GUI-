@@ -181,4 +181,4 @@ python mainapp.py
 > * Secure message sharing
 > * Fun encryption projects
 
-**Developed By © 2026 Syed Shaheer Hussain**
+Developed By © 2026 **Syed Shaheer Hussain**
