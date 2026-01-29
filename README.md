@@ -24,8 +24,7 @@ This project hides secret text messages inside images using
 Least Significant Bit (LSB) steganography combined with AES-256
 password-based encryption.
 
-The image looks visually unchanged while securely carrying
-encrypted data.
+The image looks visually unchanged while securely carrying encrypted data.
 
 ## 🚀 Features
 
