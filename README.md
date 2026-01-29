@@ -19,6 +19,7 @@ Extract Message Tab – Upload an encoded image, enter the correct password, and
 This tool is fully functional and suitable for both beginners and professionals who want to learn or use secure communication and data hiding techniques.
 
 ## 📌 Overview
+
 This project hides secret text messages inside images using
 Least Significant Bit (LSB) steganography combined with AES-256
 password-based encryption.
@@ -27,6 +28,7 @@ The image looks visually unchanged while securely carrying
 encrypted data.
 
 ## 🚀 Features
+
 - LSB Image Steganography
 - AES-256 Password Encryption
 - Hide messages in any RGB image (PNG, JPG, JPEG)
@@ -87,7 +89,7 @@ encrypted data.
 
 Python 3.10+
 
-Libraries: Pillow, cryptography
+**Libraries:** Pillow, cryptography
 
 ### Step 1: Install Python packages
 
@@ -176,6 +178,4 @@ python mainapp.py
 > * Secure message sharing
 > * Fun encryption projects
 
-
-
-
+**Developed By © 2026 Syed Shaheer Hussain**
