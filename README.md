@@ -18,6 +18,15 @@ Extract Message Tab – Upload an encoded image, enter the correct password, and
 
 This tool is fully functional and suitable for both beginners and professionals who want to learn or use secure communication and data hiding techniques.
 
+## Screenshots
+
+[!Screenshot 1](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(36).png)
+[!Screenshot 2](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(36).png)
+[!Screenshot 3](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(37).png)
+[!Screenshot 4](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(38).png)
+[!Screenshot 5](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(39).png)
+[!Screenshot 6](https://github.com/SyedShaheerHussain/Steganography-Hide-Data-in-Images-GUI-/blob/4a21dd16b72153a07d5314335e8420f6003d8a48/screenshots/Screenshot%20(40).png)
+
 ## 📌 Overview
 
 This project hides secret text messages inside images using
