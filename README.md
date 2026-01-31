@@ -1,6 +1,6 @@
 # 🔐 Image Steganography Tool (LSB + AES)
 
-This project hides secret text messages inside images using Least Significant Bit (LSB) steganography combined with AES-256 password-based encryption.
+A secure image steganography tool that hides data using LSB encoding and encrypts it with AES.
 
 ## Description
 
